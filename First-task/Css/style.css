@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 1fr;
+    min-height: 100vh;
+    background-image: url(img/dreamy-atmosphere-pastel-colored-scene-travel-content.jpg);
+    background-size: cover;
+}
+
+header {
+    background-color: #00ff9556;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    grid-column: 1 / -1;
+    display: flex;
+    align-items: center;
+}
+
+.brandname {
+    display: flex;
+  margin-left: 20px;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+}
+
+h1 {
+    margin: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: auto 1fr;
+    gap: 10px;
+    padding: 20px;
+    grid-column: 1 / -1;
+    grid-row: 2 / 3;
+}
+
+.sidebar {
+    background-color: #39c89d;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 8px;
+    grid-row: span 2;
+}
+.Destinations{text-decoration: none;
+    color: black;
+}
+.main-content {
+    background-color: #28ba8e;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.extra-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.extra-content div {
+    background-color: #39c89d;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+footer {
+    background-color: #00ff9556;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    grid-column: 1 / -1;
+}
+
+.sidebar h2,
+.main-content h2 {
+    margin-top: 0;
+}
